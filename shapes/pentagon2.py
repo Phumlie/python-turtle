@@ -7,5 +7,5 @@ screen = Screen()
 sleep(0.5)
 
 for i in range(5):
-    turtle.forward(100)
     turtle.right(72)
+    turtle.forward(100)

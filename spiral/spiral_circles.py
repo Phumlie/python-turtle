@@ -5,7 +5,7 @@ from turtle import Turtle, Screen
 from time import sleep
 from make_circle import draw_circle
 
-turtle = Turtle()
+turtle = Turtle() 
 screen = Screen()
 screen.colormode(255)
 

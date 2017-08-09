@@ -18,6 +18,6 @@ for i in range(24):
             turtle.forward(sideLength)
         else:
             turtle.right(120)
-            turtle.forward(sideLength)
+            turtle.forward(65)
            
     turtle.left(45)

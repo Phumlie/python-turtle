@@ -2,6 +2,7 @@ from turtle import Turtle, Screen
 
 turtle = Turtle() 
 screen = Screen()
+screen.colormode(255)
 
 
 side = 80
@@ -71,4 +72,12 @@ turtle.backward(42)
 turtle.left(90)
 turtle.forward(95)
 turtle.pendown()
-turtle.right(100)
+turtle.right(90)
+
+turtle.right(30)
+for i in range(120):
+    turtle.forward(1.15)
+    turtle.right(1)
+
+turtle.penup()
+turtle.forward(200)
